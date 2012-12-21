@@ -1,0 +1,39 @@
+[
+/**
+ * Change shortcuts for deleting entire line
+ */
+  { "keys": ["ctrl+e"], "command": "expand_selection", "args": {"to": "word"} },
+  { "keys": ["ctrl+e"], "command": "find_under_expand", "context":
+    [
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+  },
+  { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+
+
+  /**
+
+   * Autocomplete on TAB instead of ENTER
+
+   */
+
+  { "keys": ["enter"], "command": "commit_completion", "context":
+
+    [
+
+      { "key": "auto_complete_visible" },
+
+      { "key": "setting.auto_complete_commit_on_tab", "operand": true }
+
+    ]
+
+  },
+
+/* trailing spaces */
+{ "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+
+/* EOL semicolon */
+{ "keys": ["ctrl+shift+x"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/semicolon.sublime-macro"} }
+
+  ]
+

@@ -1,0 +1,24 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"DocBlockr",
+		"Git",
+		"Hayaku - tools for writing CSS faster",
+		"HTML5",
+		"Jasmine",
+		"jQuery Snippets pack",
+		"JsFormat",
+		"JsMinifier",
+		"Package Control",
+		"Sass",
+		"Sublimation",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"TrailingSpaces",
+		"Whitespace Corrector",
+		"ZenCoding"
+	]
+}
